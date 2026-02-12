@@ -1,0 +1,12 @@
+const url = new URL("http://amazon.com:8080/products/catalog?name=John&&city=Pune");
+
+console.log(url.host);
+console.log(url.hostname);
+console.log(url.port);
+console.log(url.protocol);
+console.log(url.pathname);
+console.log(url.href);
+console.log(url.origin);
+
+
+
